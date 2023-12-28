@@ -77,4 +77,4 @@ Keygen akan tersimpan pada Clipboard anda, silahkan anda paste di Notepad anda
 ## Lanjut Buka Github
 Buka Settings > SSH & GPG Keys
 
-![App Screenshot](https://github.com/arka-p/errorlog/blob/main/image.png)
+![App Screenshot](https://github.com/arka-p/errorlog/blob/main/Image01)
