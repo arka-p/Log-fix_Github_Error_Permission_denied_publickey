@@ -1,6 +1,7 @@
 # Mengatasi Error / fix Github Error: Permission denied (publickey)
 
 ⛔ Tidak bisa push / clone dari local ke github
+⚠️ Kasus ini terjadi pada OS Windows dengan menggunakan WSL
 
 ## How to Fix?
 
@@ -34,7 +35,7 @@
   </code>
 </pre>
 
-## Lanjutkan Untuk mendapatkan SSH
+## Get SSH-KEYGEN
 <pre>
   <code class="language-java">
     ssh-keygen
@@ -46,7 +47,7 @@
 Generating public/private rsa key pair.
 Enter file in which to save the key (/home/user/.ssh/id_rsa): 
 ```
-(/home/user/.ssh/id_rsa): Merupakan Lokasi key yang akan kita pakai dikemudian
+<code>(/home/user/.ssh/id_rsa)</code> Merupakan Lokasi key yang akan kita pakai dikemudian
 
 Terminal akan berlanjut menampilkan:
 ```
@@ -59,4 +60,18 @@ Kosongkan saja atau tekan enter
 Your identification has been saved in /home/user/.ssh/id_rsa
 Your public key has been saved in /home/user/.ssh/id_rsa.pub
 ```
-id_rsa.pub Merupakan File yang akan kita buka melalui Powershell Windos
+<code>id_rsa.pub</code> Merupakan File yang akan kita buka melalui Powershell Windows
+
+## Buka Powershell Windows
+pindah ke direktori lokasi keygen, pada kasus ini ubuntu kami menggunakan WSL
+```
+cd  \\wsl.localhost\Ubuntu\home\user\.ssh
+```
+Lanjutkan Perintah
+```
+Get-Content id_rsa.pub | Set-Clipboard
+```
+Keygen akan tersimpan pada Clipboard anda, silahkan anda paste di Notepad anda
+
+## Lanjut Buka Github
+Buka Settings > SSH & GPG Keys
