@@ -1,6 +1,7 @@
 # Mengatasi Error / fix Github Error: Permission denied (publickey)
 
 ⛔ Tidak bisa push / clone dari local ke github
+
 ⚠️ Kasus ini terjadi pada OS Windows dengan menggunakan WSL
 
 ## How to Fix?
@@ -75,3 +76,5 @@ Keygen akan tersimpan pada Clipboard anda, silahkan anda paste di Notepad anda
 
 ## Lanjut Buka Github
 Buka Settings > SSH & GPG Keys
+
+![App Screenshot](https://github.com/arka-p/errorlog/blob/main/image.png)
