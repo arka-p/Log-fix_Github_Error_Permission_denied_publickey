@@ -4,6 +4,8 @@
 
 ⚠️ Kasus ini terjadi pada OS Windows dengan menggunakan WSL
 
+
+
 ## ▶️ How to Fix?
 
 <pre>
@@ -36,12 +38,16 @@
   </code>
 </pre>
 
+
+
 ## ▶️ Get SSH-KEYGEN
 <pre>
   <code class="language-java">
     ssh-keygen
   </code>
 </pre>
+
+
 
 ## ▶️ Terminal akan menampilkan lokasi keygen yang akan di generate
 ```
@@ -62,6 +68,8 @@ Your identification has been saved in /home/user/.ssh/id_rsa
 Your public key has been saved in /home/user/.ssh/id_rsa.pub
 ```
 <code>id_rsa.pub</code> Merupakan File yang akan kita buka melalui Powershell Windows
+
+
 
 ## ▶️ Buka Powershell Windows
 pindah ke direktori lokasi keygen, pada kasus ini ubuntu kami menggunakan WSL
